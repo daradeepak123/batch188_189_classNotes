@@ -11,6 +11,20 @@ Agenda
 		4. execute
 		5. read the data
 	2. Github
+		1. Version
+		2. Repository
+			1. Local
+			2. Remote
+
+
+1. Create a account in github application.  https://github.com/
+2. Install git on your system
+
+Learned local repo and remote repo
+
+
+
+	
 
 
 JDBC
