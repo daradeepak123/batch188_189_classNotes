@@ -1,0 +1,99 @@
+
+Agenda
+
+	1. Oops Encapsulation
+	2. Collections
+		framework of Collections
+
+	List
+	a. Stores duplicates
+	b. Mantain insertion order
+	Set
+	a. Dosent allow duplicate
+	b. Dosent mantain insertion order
+
+
+
+!----------------List interface---------------!
+
+
+List<int> lst=new ArrayList<>();
+
+lst.add(6000);
+lst.add(8000);
+lst.add(6000);
+
+
+int var1[]=new int[100];
+
+var1[40]=3000;
+
+
+
+interface A
+{
+
+}
+
+
+Class B implements A
+{
+
+p s v m()
+{
+B o=new B();
+A oo=new B();
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+!----------Encpasulation----------!
+
+
+
+
+
+
+
+
+
+
+
+
+
+public boolean pal(String str)
+{
+
+return false/true;
+}
+
+public class ABC
+{
+public int ab=500;
+
+private ABC()
+{
+
+}
+
+
+}
+
+
+
+
+
+
+
+

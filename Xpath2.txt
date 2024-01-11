@@ -1,0 +1,78 @@
+
+
+Agenda
+	1. Xpath
+	2. WebDriver Methods
+	3. WebElement Methods
+
+driver.findElement(By.xpath("//abc")).clear();	
+
+
+1. //tag
+2. tag with attribute
+3. tag with multiple attributes
+4. tag with text
+	1. direct
+	2. contains
+	3. starts-with
+5. relations
+	1. parent
+	2. child
+	3. sibling
+		following and preceding
+	4. ancestors
+6. * 
+
+//*
+//tagname
+
+//tagname[@attribute='value']
+
+<input name="hello"></input>
+<button name="hello1" class="hello"></button>
+
+//button[@*='hello']
+
+7. / and //
+
+//div/a/input
+wil get 2 values
+<div>
+	<a>
+		<input></input>	
+	</a>
+	<p>
+	<a></a>
+	</p>
+
+</div>
+
+
+
+
+//table[@id='table1']//td[text()='Tim']/following-sibling::td[4]/a[text()='delete']/../../td[text()='Conway']
+
+
+
+
+
+
+1. Open  browser
+2. Enter URL
+3. enter the data in tb
+4. click on buton
+5. Check if we are getting internal server error or not
+
+
+
+
+
+Assignment
+	a. Open all the browsers in different classes
+	b. Load 10 different URLs using navigate methods
+	c. Find out title for all applications.
+	d. Implement method logic for all the concepts
+	e. Continue with Xpath writing
+
+
+

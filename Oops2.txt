@@ -1,0 +1,110 @@
+
+
+Agenda:
+	1. Inheretance
+	2. Constructor
+	3. Final
+	4. This and super keywords
+
+!--------------------------Inheretance------------------!
+
+	1. Single level
+	2. Multi level
+	3. Hyrarchial
+	4. Hybrid
+
+
+
+
+
+
+
+class A   
+{
+
+5 v 10 m
+
+p 10 v
+
+}
+
+Class B extends A
+{
+3 v 3 m
+
+}
+
+
+Class C extends B
+{
+
+
+
+}
+
+
+!-------------------Final-------------!
+
+
+1. If final applied to  class (No one can inherit that class)
+2. If final applied to variable (value will not be changed)
+3. If final applied to method (method cannot be overriden)
+
+
+
+!------------constructor---------------!
+
+
+1. Class name and constructor should be same.
+2. Constructors will not have return type.
+3. Constructor looks like method but it is not a method
+4. you cannot apply static keyword for constructor
+5. Constrcutor can have access modifier
+6. If constructor is not created a default constructor will be invoked.
+7. Constructors can have parameters
+8. constructors cannot be called but it can be invoked.
+
+
+
+
+
+
+
+Assignment
+	1. ATM program with Inheretance (Single multi and hirerchical)
+
+
+
+
+
+
+
+!-----------------String--------------!
+
+
+String str="welcome to Java";
+
+char c[]=str.toCharArray();
+
+
+
+
+for(int i=0)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

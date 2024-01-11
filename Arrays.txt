@@ -1,0 +1,57 @@
+
+
+
+Agenda:
+	1. Arrays
+		10 30 50 60 66 83 2 1 
+
+int a=10;
+int b=30
+int c=50
+
+	dataType var1[]=new DataType[100];
+	 int a[]=new int[100];
+	1. Arrays will store homogenious data
+	2. You can store data based on size only
+	3. Arrays will practice indexing pattern
+
+		int a[]=new int[100];   //100*4=400bytes
+	add 1-100 numbers in a array which is declared below
+		int abc[]=new int[100];
+
+
+int aa=500;  //4bytes
+
+	Array integration with for loop
+		int abc[]=new int[500];
+			abc[0]=0;
+			abc[1]=1;
+
+
+for(int i=0;i<500;i++)
+{
+
+abc[i]=i;
+
+
+}
+
+
+
+
+	2. Last day class recap	
+
+
+	Assignment
+		1. Declare arrays with all data types
+		2. print all the data types from arrays using 	
+			a. Simple for loop
+			b. for each loop
+		3. Cross map the array from one array to another array in reverse mode
+		4. Create 3 arrays 
+			in first array add numbers between 1-100
+			in second array add only even numbers present in first array
+			in third array add only odd numbers present in first array
+
+
+

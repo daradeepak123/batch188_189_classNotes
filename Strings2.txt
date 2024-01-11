@@ -1,0 +1,94 @@
+
+
+Agenda:
+	1. Strings exampls
+
+	String sentance="mom and dad are going to meet madam";
+	String words[]=sentance.split(" ");
+
+
+char ch[]=sentance.tocharArray();
+
+
+	2. Find duplicates
+		String str="Java Jcompiler";
+
+
+if(str.indexOf('J')==str.lastINdexOf('J'))
+{
+syso("J is not a duplicate character")
+}
+else
+{
+syso("J is a duplicate character")
+}
+
+
+String str="ManualTesting";
+
+Loop
+condition
+variable char
+char ch=' ';
+for(int i=0;i<str.lenth();i++)
+{
+ch=str.charAt(i);
+if(str.indexOf(ch)==str.lastIndexOf(ch))
+{
+syso(ch+ " Not a duplicate character")
+}
+else
+{
+syso(ch+ " is a duplicate character")
+
+}
+}
+
+String str="LearnManualTestingLAutomatedTEstingLLLLLLLLL";
+		
+find out all the indexes of L
+
+hint: .charAt('L');
+
+
+for(int i=0;i<str.length();i++)
+{
+char ch=str.charAt(i);
+if(ch=='L')
+{
+
+syso("L is present at this index position" + i);
+}
+
+
+
+}
+
+
+String str="mom and dad are going to meet madam in the classc";
+
+String words[]=str.split(" ");
+
+
+for(String ss:words)
+{
+
+char ch=ss.charAt(0);
+
+if(ss.indexOf(ch)==ss.LastIndexOf(ch))
+{
+syso("This is not getting duplicated");
+}
+else
+{
+syso("This is getting duplicated");
+}
+
+
+
+}
+
+
+
+
+

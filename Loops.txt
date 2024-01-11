@@ -1,0 +1,58 @@
+
+Agenda:
+
+	1. Loops
+		1. Simple for loop
+
+		2. FOr each loop
+		3. While loop
+			initilize
+			while(true/false)
+			{	
+				statements;
+				increment/decrement;
+			}
+		4. Do while loop
+			
+		5. Nested loops
+
+1. Print 5 table
+
+syso(1*5);
+syso(2*5);
+syso(3*5);
+
+1 1<=10 
+for(int i=1;i<=10;i++)
+{
+
+syso(i*5);
+
+
+}
+
+97
+
+97%2==0 it is a prime number
+97%3==0 it is a prime number
+
+
+for(int i=2;i<97;i++)
+{
+
+if(97%i==0)
+{
+syso(this is not a prime number);
+
+}
+
+}
+
+
+
+
+
+
+
+
+

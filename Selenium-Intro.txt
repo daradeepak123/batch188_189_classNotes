@@ -1,0 +1,122 @@
+
+
+
+
+Agenda:
+
+		Recap
+	1. What are automation tools available
+	2. Why Selenium
+	3. Selenium Introduction
+	4. Selenium Set up
+	5. Initial Selinium code
+
+
+
+
+
+
+
+1. Protractor
+2. Selenium
+	1. Open source
+	2. Vintage
+	3. Can work with web application
+	4. RObust 
+	5. Base is Java
+	6. Accurate
+	7. Most used tool
+	8. Quick assistance
+	10.Easy to find resolution
+3. Tosca
+4. Cypress
+5. QTP
+
+
+Swift 10l
+
+
+xyz  8 more eligible that swift
+
+
+Organization way
+	1. Selenium
+		
+	2. Cypress
+	3. xyz
+
+100 test engineers
+
+Personal way
+
+
+new projects
+
+Existing projects
+
+Support projects
+
+
+Drawbacks
+1. It cannot automate capcha
+2. It cannot deal with Window based application
+3. It experts more coding
+
+
+
+
+Selenium Background
+	
+	1. Selenium IDE
+		a. Extention for FF browser
+		b. Record and play back
+	2. Selenium RC
+	3. Selenium WebDriver
+	4. Selenium Grid
+
+
+
+!---------------Selenium------------!
+
+
+
+
+Selenium WebDriver is a Interface
+
+
+WebDriver (20)
+
+
+
+
+
+
+Chrome implements WebDriver
+
+FF implements WebDriver
+
+Edge implements WebDriver
+
+Opera implements WebDriver
+
+Safari implements WebDriver
+
+xyz implements WebDriver
+
+
+
+Open Browser
+
+Assignment:
+
+1. Perform Selenium Set up
+2. Create a String array Which contain 5 URLs
+3. Bring the titels of all the applications
+
+
+
+
+
+
+
+

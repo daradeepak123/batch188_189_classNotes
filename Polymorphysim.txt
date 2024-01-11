@@ -1,0 +1,101 @@
+
+
+
+Agenda
+	1. PolyMorphysim
+	2. Abstraction
+
+
+!-------------PolyMorphysim-----------------!
+
+1. PolyMorphysim means multiple forms
+2. PolyMorphysim is talking about methods
+	a. Overloading & static polymorphysim
+		1. Class having same methodname with different parameters
+		2. It dosent matter with static or non static
+		3. Access modifiers will not impact the polymorphysim
+	b. overriding  & dynamic polymorphysim
+		1. You cannot override static methods
+
+
+class A
+{
+
+1+1=2
+
+
+p v add(int a,int xyz)
+{
+
+}
+
+
+p v add(byte a,int b)
+{
+
+}
+p v add(int a,int b,int z)
+{
+
+}
+
+p s v m(S a[])
+{
+
+add(10,20);
+
+
+}
+
+}
+
+
+!-------------Abstraction---------------!
+
+	1. abstract class
+	2. abstract method
+	3. Interface
+
+
+
+car
+	1. 4 weels
+	2. 4 doors
+	3. 5 seating capacity
+
+suzuki
+	1. 4 weels  {small wheels}
+	2. 4 doors  {delicate body}
+	3. 5 seating capacity {less spacious}
+
+vlovo
+benz
+ford
+
+
+
+Banking
+
+
+RBI
+Houseloan
+Pl
+
+
+HDFC
+	
+SBI
+
+
+
+
+Assignment:
+	1. Write 10 methos with overloading
+	2. Override 3 methods
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+
+Agenda
+	1. Maven Project
+		Go to help -> Eclipse market place -> Search with Eclipse m2E -> go with instllation.
+		Accept the terms
+		eclipse will get re started
+		you can create a maven project
+	2. Read data from excel
+
+
+Go to the location
+Open the file
+recognize the file
+sheet
+
+fetch the data from excel
+
+
+
+
+
+
+

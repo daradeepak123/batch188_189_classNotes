@@ -1,0 +1,87 @@
+
+
+
+
+
+Agenda
+	1. Screenshot
+	2. Window Pop ups
+		
+	3. TestNG
+		a. TestNG is designed based on Java
+		b. testNG is used to test engineers majorly 
+		c. testNG is having annotations
+			annotation starts with @character
+			annotations sequence	
+				1. BeforeSuite
+				2. BeforeTEst
+				3. BeforeClass
+				4. BeforeMethod
+				5. Test
+				6. AfterMethod
+				7. AfterClass
+				8. AfterTEst
+				9. AfterSuite
+
+
+
+TestNG instllation
+	1. Go to eclipse market place search with TestNG and install
+	2. IN the project go to POM.xml file and put the testNG dependency
+	3. add the TestNG lib for the project
+
+
+
+
+1. login
+2. Home pafe
+3. admin page
+4. contact us
+5. careers
+
+
+5 java classes
+
+
+Interface ABC
+{
+
+public void hello();
+
+}
+
+class XYZ implements ABC
+{
+
+@override
+p v h()
+{
+}
+
+}
+
+
+
+
+
+this is before suite
+THis is before Test
+THis is before class
+THis is before method
+THis is actual test
+This is after method
+THis is before method
+THis is actual test1
+This is after method
+THis is after class
+THis is after Test
+
+
+
+
+
+
+
+
+
+

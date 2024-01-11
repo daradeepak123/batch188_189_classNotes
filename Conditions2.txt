@@ -1,0 +1,200 @@
+
+
+
+Agenda
+	a. Nested IF
+	b. Switch
+		int a=1;
+		switch(a)
+			case: 1
+			{
+				syso(turn on fan);
+				break;
+			}
+			case: 2
+			{
+				syso(turn on light);
+				break;
+			}
+			case: 3
+			{
+				syso(turn on speaker);
+				break;
+			}
+			default
+			{
+			syso(you have 3 switches only)
+			}
+			
+	c. Loops
+		1. Simple for loop
+			for(initiliziation;condition;increment/decrement)
+	{
+	
+	}
+	for(int i=0;i<100;i++)
+	{
+	statements  z;	
+	}
+		2. For Each loop
+		3. While loop
+		4. Do WHile loop
+		5. Nested for loops
+
+
+		integration of loops with contitions break continue
+
+Travel Application
+	bus 
+	Ac
+	Sleeper
+	9:00PM
+
+
+
+BUs Car ship flight
+
+String Choice=bus;
+
+if(Choice==Bus)
+{
+	if(type==AC)
+	{
+		if(Typee2==sleeper)
+		{
+			if(TIme>9:00PM)
+			{
+			}
+			else
+			{	
+			syso(THer is no time for this slot);
+			}
+		}
+		else
+		{
+		syso(there is no Sleeper)	
+		}
+	}
+	else
+	{
+	sys0(no ac bus)
+	}
+}
+else
+{
+syso(THere is no bus cat)
+}
+
+GEnder
+
+if(gender=male)
+	{
+		if(sal>100000)
+		{	
+			if(star==match)
+			{
+				if(height==6 && weight==80)
+				{
+				
+				}
+				else
+				{
+					sysoRejected
+				}
+			}
+		}
+		else
+		{
+		syso(Rejected)
+		}
+	}
+
+
+
+if(gender==female)
+{
+	if(employeed)
+		{
+			if(goodlooking)
+			{
+			}
+			else
+			{
+				reject
+			}
+		}
+	else{
+	reject
+}
+	
+}
+
+
+Army Job application
+	1. age 18-24
+	2. qualification +12 percentage
+	3. height 6  80 for men 5'6 and 50 for women
+	4. physical fitness
+	5. mental fitness
+	6. eye sight
+	7. personal background
+	8. family background
+	9. citizan
+
+
+
+Assignment
+	1. Convert Electricitybilling program to nested if based on below
+		a. City houses
+		b. Town houses
+		c. Village
+		d. Industries
+		e. Prayer areas
+	2. Convert bus program to nested if
+	3. Find out odd and even numbers between 1-100
+
+
+
+
+
+Each and every time pass the statement
+pressure on boy
+TIme 
+
+
+boy, got the room you can find 100 boxes take paper from each box  from 1 to 100 collect and bring it to me
+
+
+time
+pressure on boy
+signle statement
+maintainability
+
+
+
+syso(1);
+syso(2);
+syso(3);
+syso(4);
+syso(5);
+syso(6);
+syso(7);
+syso(8);
+syso(7);
+syso(8);
+syso(9);
+syso(10);
+syso(11);
+syso(12);
+syso(13);
+syso(4);
+syso(1);
+syso(2);
+syso(3);
+syso(4);
+
+
+
+
+
+

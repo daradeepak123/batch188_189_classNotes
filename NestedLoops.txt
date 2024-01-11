@@ -1,0 +1,24 @@
+
+
+
+Agenda:
+
+	1. Eletricity Billing program
+	2. Nested Loop
+		
+		for()
+		{
+			for()
+			{
+				for(){}
+			}
+			while()
+			{
+				do{}while();
+			}
+			do{}while();
+		
+		}		
+
+	3. Arrays
+

@@ -1,0 +1,99 @@
+
+
+String:
+
+String str="abc123!adsaADSD";
+
+	1. Practicals
+
+
+a. Reverse a String
+b. Check if palindrome
+
+
+String str="Learn Java";
+String reverse="";
+
+
+avaJ nraeL
+
+avaJ nraeL
+
+for
+logic
+variable
+
+str.charAT(i);
+str.length();
+
+String str="Learn Java"
+String rev="";
+
+char ch=' ';
+for(int i=0;i<str.lenth();i++)
+{
+
+ch=str.charAt(i);
+rev=ch+rev;
+
+}
+
+syso(rev);
+
+
+String s="hello";
+
+syso(s);  //hello
+
+h
+e
+l
+l
+o
+
+syso.out.print(s);
+
+mom mom
+dad dad
+
+madam madam
+
+
+
+100 - 1000
+
+
+
+
+
+
+
+
+
+
+Assignment:
+	1. Reverse a String
+	2. Reverse a sentance
+	3. Convert a string to char array and print vertical
+	4. convert a sentance to words array
+	5. Check howmany palindromes are there in a sentance
+	6. CHeck the numbers between 100-1000 are palindrome are not (Note: make use of arrays do while loop to check max and min )
+	7. COunt the palindrome numbers from the number 100 to 1000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

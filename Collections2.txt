@@ -1,0 +1,12 @@
+
+
+Agenda:
+
+	1. List
+	2. Set
+	3. Returntype and parameter of Collections
+
+
+1. Collect 5 Strings and store in Set in the pattern of Method with parameter.
+2. Give return type for the method.
+3. Method should reverse the given String and return the Consolidated to return. 

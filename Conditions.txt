@@ -1,0 +1,85 @@
+
+
+
+Agenda
+	a. Conditions
+
+		1. Simple IF
+			if(condition) (t/f)
+			{
+				statements;
+			}
+		2. Else and else if
+if(false)
+{
+statements1;
+}			
+else
+{
+statements2;
+}
+
+int b=0;
+if(b!=0)
+{
+syso(10/b)
+}
+else
+{
+
+}
+
+find out if given number is even or odd
+
+int a=500;
+
+if(a%2==0)
+{
+syso("Given number is even number");
+}
+if(a%2!=0)
+{
+syso("given number is odd number");
+}
+
+
+
+		3. Ladder if
+
+if(condition)
+{
+}
+else if(condition)
+{
+
+}
+else if(condition)
+{
+
+}
+
+		4. Nested if
+		5. Switch
+
+
+if 
+b=-10
+if(b!=0 )
+{
+syso(10/b);
+}
+
+
+
+
+Self explore
+	1. Call by value
+	2. call by reference
+
+Assignment
+	1. Work with all datatypes in scanner class.
+	2. Create objects and have good hands on.
+	3. With scanner classes find if number is odd even
+		Note: Use simple if and ladder if.
+	4. Generate eletricity billing using ladder if
+	

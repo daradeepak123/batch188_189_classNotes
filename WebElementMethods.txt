@@ -1,0 +1,15 @@
+
+
+Agenda:
+	1. WebElement Methods
+		a. clear
+		b. click
+		c. sendkeys
+		d. isenabled
+		e. isdisplayed
+		f. gettext
+	
+	2. types of WebElement
+	3. Functional flow
+	
+

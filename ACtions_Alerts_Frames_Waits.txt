@@ -1,0 +1,32 @@
+
+Agenda
+
+	1. Selenium waits
+		1. Implicitly wait  (30)
+			a. Will be written at the starting level
+			b. constant wait for all webElements
+			c. Time will be released after finding the webelement
+		2. Explicitly wait
+		3. Fluent wait
+	2. Alerts
+		1. Accept the alert
+		2. Dismiss the alert
+		3. send information to alert and accept the alert
+	3. Frames
+		
+	4. Actions
+		WebDriver driver=new FireFoxDriver();
+		Action act=new Action(driver);
+
+
+
+
+	5. Windowhandle
+
+		
+
+
+
+
+
+

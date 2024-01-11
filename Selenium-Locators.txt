@@ -1,0 +1,284 @@
+
+
+
+
+Agenda
+
+<input id='abc' name='text' class='hello'></input>
+<input  name='text' class='hello1'></input>
+<input  name='text' class='hello'></input>
+<input  name='text3' class='hello'></input>
+<a>google</a>
+<a>google</a>
+driver.findElement(By.partialLinkText("o"));
+
+
+driver.findElement(By.name("text"));
+
+
+	1. Locators
+		a. Id
+		b. name
+		c. class
+		d. tag
+		e. linkText
+		f. PartialText
+		g. cssSelector
+		h. xpath
+
+
+1. ID practical
+
+<input required="" autocomplete="off" placeholder="First Name" type="text" id="firstName" class=" mr-sm-2 form-control">
+
+driver.findelement(By.id("firstName"));
+
+
+2. name practical
+
+<input name="gender" required="" type="radio" id="gender-radio-1" class="custom-control-input" value="Male">
+
+driver.findelement(By.name("gender"));
+
+3. class name practical
+
+<div class="practice-form-wrapper">
+driver.findelement(By.className("practice-form-wrapper"));
+
+
+4. link text and partial link text
+
+<a id="simpleLink" href="https://www.demoqa.com" target="_blank">Home</a>
+
+
+<a id="simpleLink" href="https://www.demoqa.com" target="_blank">Home</a>
+driver.findelement(By.linktext("Home"));
+driver.findelement(By.partiallinktext("Ho"));
+
+
+5. tag name
+
+<input name="gender" required="" type="radio" id="gender-radio-1" class="custom-control-input" value="Male">
+driver.findelement(By.tagName("a"));
+
+6. CSSSelector
+
+<input autocomplete="on" placeholder="Full Name1" type="text"  class=" mr-sm-2 form-control">
+
+<input autocomplete="off" placeholder="Full Name" type="text" id="userName" class=" mr-sm-2 form-control">
+driver.findelement(By.cssSelector("input[id='username']"))
+
+7. Xpath
+
+<input autocomplete="off" placeholder="Full Name" type="text" id="userName" class=" mr-sm-2 form-control">
+driver.findelement(By.xpath("input[@id='username']"));
+
+
+
+
+CSS Selectors (cascading style sheet)
+
+1. Tag and ID or #id
+2. Tag and class or .class
+3. Tag and attribute or [attribute=value] or tag[attribute=valur]
+4. tag, class and attribute
+
+
+<input id="email" type="txt" name="text" class="hello"></input>
+<button type="button" name="text" class="hello1"></button>
+
+driver.findElement(By.cssSelector(input.hello));
+driver.findElement(By.cssSelector(#abc));
+driver.findElement(By.cssSelector(.hello1));
+
+1. tag and id
+
+just with id
+driver.findelement(By.cssselector("input#email"));
+
+
+driver.findelement(By.cssselector('#menu_dashboard_index'));
+
+
+with tag and id
+driver.findelement(By.cssselector("input#email"));
+
+driver.findelement(By.cssselector("a#menu_dashboard_index"));
+
+
+2. tag and class combination
+
+driver.findelement (by.cssSelector("a.btn-orange contact-ohrm "))
+
+driver.findelement(By.cssselector("a.firstLevelMenu"));
+
+driver.findelement(By.CssSelector(.firstLevelMenu));
+
+
+just with class
+driver.findelement(By.cssselector(".inputtext"));
+
+with tag and class
+driver.findelement(By.cssselector("input.inputtext"));
+
+driver.findelement(By.cssselector("p.username"));
+
+3. tag and attribute
+with attribute
+
+<input class="home-tril-email" type="text" id="myText" placeholder="Email Address"
+
+driver.findelement (by.cssSelector("a[class=btn-orange contact-ohrm ]"))
+
+driver.findelement(By.cssselector("a[class=firstLevelMenu]"));
+
+
+driver.findelement(By.cssselector("input[type=text]"));
+with atag and attribute
+driver.findelement(By.cssselector("input[id=email]"));
+
+4. tag class and attribute
+combination of tag class and attribute
+driver.findelement(By.cssselector("input.btn-orange contact-ohrm [href=/contact-sales/]"));
+
+
+
+driver.findElement(By.cssSelector("a[target=_self]"));
+
+
+
+
+how to see html and dom view
+xpath works with dom structure
+
+absolute xpath
+relative xpath
+
+with multipel combinations 
+
+difference between absolute and relative xpath
+
+
+
+Xpath syntax
+
+(#valueofid)
+(tag#valueofid)
+
+//tag[@attributename='value']
+
+//tagname[@attribute='value' or @attribute1='value' and @attributr2='value']
+
+//input[@class='home-tril-email' or @type='text' and @id='myText']
+
+Contains
+//tag[contains(@attribute,'value')]
+
+start with 
+//tagname[starts-with(@attribute,'initial value')]
+
+
+how to capture xpath?
+1. navigate to the selected element in html and -> right click -> and copy full/xpath 
+2. there is an extention chropath extention
+3. selectorhub
+
+
+1. Work with different web elements in web application.
+2. Write finctional flow for application.
+3. Automate testcases according to functionl flow.
+4. Write all functional flows for OrangeHRM application.
+
+
+Regression testing
+
+//table[@id='resultTable']//tbody//tr//a[text()='Aravind']
+
+//table[@id='resultTable']//tbody//tr//td//a[text()='Aravind']
+tag[attribute=value]
+
+
+how to deal with hyperlink using xpath
+
+
+xpath
+	a. absolute xpath /
+	b. relative xpath //
+		1. Find out based on tag name
+			//tag
+		2. tag and attribute
+			
+			//tag[@attribute='value']
+
+
+<input name="text" class="hello"></input>
+<button name="text" class="hello"></button>
+<button name="text" class="hello1"></button>
+<button name="text1" class="hello1"></button>
+
+//button[@name='text']
+//button[@class='hello1' & @name='text']
+
+1. simple tag name
+2. tagname and attribute
+3. tagname and multiple attributes
+4. tag and text
+	a. direct text
+	b. contains
+	c. starts with
+5. Relations
+	a. Parent
+	b. child
+	c. sibling
+		following
+		preceding
+	
+
+
+
+//tagname[text()='value']
+//tagname[contains(text(),'value')]
+//tagname[starts-with(text(),'value')]
+
+
+text
+
+
+
+<input>abc</input>
+<input/>
+
+
+//input[text()='abc']
+//input[contains(text(),'abc')]
+
+
+
+
+//table[@id='table1']//td[text()='jsmith@gmail.com']
+
+
+//table[@id='table1']//td[text()='jsmith@gmail.com']//following-sibling::td[3]//a[text()='edit']
+
+(//a[text()='edit'])[1]
+
+
+
+
+
+
+
+Assignment
+	1. Open facebook application
+		a. findout all the web elements using all locators
+	2. Open demo application
+		a. findout all the web elements using all locators
+
+
+
+Note:
+	all the results should be in excel
+
+
+
+

@@ -1,0 +1,87 @@
+
+
+
+Agenda:
+	a. EMployee class
+	b. Conditions
+
+		1. simple if
+boolen b=100<50;
+int a=600,b=10
+if(a<b)
+{
+statements1;
+statement2;
+}
+		2. else if
+		3. Ladder if
+		4. nested if
+		5. Switch
+
+
+
+
+int marks=400;
+
+if(marks>=500)
+{
+bicycle;
+}
+
+
+
+
+
+class
+{
+int a
+int b
+int c
+
+p s v m()
+{
+class obj=new class();
+class obj1=new class();
+class obj2=new class();
+class obj3=new class();
+
+}
+
+
+}
+
+
+
+Class addition
+{
+public void add2NUmbers(int a,int b)
+{
+sysstem.out.println(a+b);
+}
+
+public void add1NumberWith100(int a)
+{
+system.out.println(a+100);
+}
+public static void addLongDataType(byte b,short s)
+{
+syso(b+s)
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

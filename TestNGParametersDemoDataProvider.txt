@@ -1,0 +1,33 @@
+
+
+Agenda
+		JAvaScripting scrolling and actions
+	1. Test parameters
+
+		@Test(invocationcount=5)
+		public void helli()
+		{
+			syso("THis is is test");
+		}
+
+
+	2. Data providers
+		@DataProvider
+		public Object[][] data()
+		{
+			return {{"hello","hello"}};
+		}
+		
+		@Test(dataprovider="data")
+		p v dProvider(String str,String str)
+		{
+		
+		}
+	3. Demo
+	4. Asserts
+		a. Hard assert
+		b. Soft assert
+	5. PageObject model theory
+
+
+JavaScriptExecutor ob=(JavaScriptExecutor)driver;

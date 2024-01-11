@@ -1,0 +1,28 @@
+
+
+
+
+Agenda
+	1. Database Automation
+
+		1. Open SQL Server
+		2. Connect with server
+		3. Prepare query
+		4. execute
+		5. read the data
+	2. Github
+
+
+JDBC
+
+1. Connection
+2. Statement
+3. execute query
+4. Read results in result set
+
+
+
+
+
+	2. GitHub
+

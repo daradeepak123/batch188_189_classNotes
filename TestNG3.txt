@@ -1,0 +1,33 @@
+
+
+Agenda
+	1. TestNG framework
+		a. Genric methods
+		b. Maven project structure
+		c. Code optmize
+		d. Cross browser
+		e. Property file reading
+		f. Realtime Project demo
+
+public void sendDataTextBox(WebDriver driver,String xpath,String data)
+{
+WebElement txtBox=driver.fiE(By.xpath(xpath));
+
+
+WebDriverWait wait=new WebDriverWait(30);
+wait.until(ExpertedConditions(txtBox, intractable));
+
+boolean bool=txtBox.isEnabled();
+boolean bool1=txtBox.isDisplayed();
+if(bool && bool1)
+{
+txtBox.clear();
+txtBox.sendKeys(data);
+}
+else
+{
+syso(WebElement is not displayed or enabled);
+}
+}
+
+		

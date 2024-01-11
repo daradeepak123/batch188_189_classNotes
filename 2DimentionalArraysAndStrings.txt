@@ -1,0 +1,31 @@
+
+
+
+Agenda:
+	1. String
+		String str="hello";
+		String str1="hello1";
+		String strr=new String("hello");
+	2. String functions
+	3. Method with array parameter
+	4. Method with return type
+
+	public static int hello(int xx)
+	{
+		int abc=xx;
+		abc+=800;	
+
+		return abc;
+	}
+	public static void main(String args[])
+	{
+		int xyz=hello(1000);
+	}
+
+
+
+
+
+
+
+

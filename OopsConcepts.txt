@@ -1,0 +1,76 @@
+
+
+Agenda:
+	1. Oops
+		a. class
+		b. object
+		c. method
+		d. inheretance
+		e. Polymorphysim
+		f. Abstraction
+		g. Encapsulation
+	
+
+!----------------class----------------------!
+
+
+public class
+{
+
+int a;
+int abc;
+
+p s v m()
+{
+obj and obj2;
+
+}
+
+
+
+
+
+
+}
+
+
+public static void main(String args[])
+{
+
+
+}
+
+
+
+
+!----------------------access modifiers----------------!
+
+
+
+1. public  (boy)
+2. default (old person)
+3. protected (girl)
+4. private  (small kid)
+
+
+	Access type	with in class	with in package	child class	entire project
+boy	public 	Yes	Yes	Yes	Yes
+old person	default	yes	yes	no	no
+a girl	protected	yes	yes	yes	no
+small boy	private	yes	no	no	no
+
+Assignment
+	1. Perform ATM program using access modifiers
+
+
+
+
+
+
+
+
+
+
+
+
+

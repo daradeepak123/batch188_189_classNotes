@@ -1,0 +1,26 @@
+
+
+
+Agenda
+	1. POM
+	2. Loggings
+
+
+
+
+
+1. triggered Test class
+	a. Baseclass
+		beforeannotations
+			helperclasses
+			Browserclass
+	b.Dashboard page 
+		for test execution
+		object created in baseclass is called
+		with that reference calling methods
+		perofrming tests
+		
+	c. BaseClass
+		Afterannotations
+			quite
+			close workbook 
